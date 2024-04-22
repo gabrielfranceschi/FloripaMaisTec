@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Alfa</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Tela deve conter os seguintes elementos:
+        input para informar código ou nome do produto;
+        Botão para consultar valor;
+        Botão para comprar produto consultado. -->
+    <h1>Bem vindo ao Mercado Alfa</h1>
+    <ul>
+      <b>Lista de produtos</b>
+      <li>1.Morango</li>
+      <li>2.Banana</li>
+      <li>3.Abacaxi</li>
+      <li>4.Arroz</li>
+      <li>5.Feijão</li>
+    </ul>
+    <input type="text" id="produto" placeholder="Digite o produto aqui" />
+    <button onclick="consultarPreco()">Consultar Preço</button>
+    <button onclick="comprarProduto()">Comprar</button>
+    <button onclick="abrirCarrinho()">Abrir Carrinho</button>
+    <button onclick="limparCarrinho()">Limpar Carrinho</button>
+    <br />
+
+    <div id="carrinhoCompras"></div>
+
+    <h3>Produtos no Carrinho:</h3>
+    <ul id="listaCarrinho"></ul>
+    <p>Número de Produtos no Carrinho: <span id="quantidadeProdutos">0</span></p>    
+    <p>Total do Carrinho: R$ <span id="somaCarrinho">0.00</span></p>
+  </body>
+</html>

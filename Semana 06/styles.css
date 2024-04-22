@@ -1,0 +1,36 @@
+header {
+  background-color: #504f4f;
+  color: #cccccc;
+  padding: 25px;
+}
+
+main {
+  background-color: #504f4f;
+  color: #ffff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #504f4f;
+  color: #cccccc;
+  padding: 20px;
+  text-align: center;
+}
+.perfil {
+  text-align: left;
+}
+
+.perfil p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.perfil image {
+  text-align: center;
+  align-items: center;
+}
+.perfil h2{
+    color: rgb(165, 165, 165);
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
